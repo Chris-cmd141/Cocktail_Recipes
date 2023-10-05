@@ -5,6 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Cocktail Recipes</title>
+    <style>
+        /* Additional CSS styles for the title and <h2> */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Style the <h2> element */
+        h2 {
+            font-size: 1.5rem;
+            color: #cc0000e1;
+            margin-bottom: 10px;
+        }
+        
+        /* Button styles and hover effect for text visibility */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007acc;
+            color: #fff;
+            text-decoration: none;
+            border: 2px solid #0056b3;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        /* Button hover effect */
+        .button:hover {
+            background-color: #0056b3;
+            color: #fff; /* Change text color on hover to white */
+            transform: translateY(-2px);
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -14,9 +56,9 @@
         <section class="cocktails">
             <h2>Cocktail List</h2>
             <ul>
-                <li><a href="Margarita.html">Margarita</a></li>
-                <li><a href="MoscowMule.html">Moscow Mule</a></li>
-                <li><a href="PinaColada.html">Pina Colada</a></li>
+                <li><a href="Margarita.html" class="button">Margarita</a></li>
+                <li><a href="MoscowMule.html" class="button">Moscow Mule</a></li>
+                <li><a href="PinaColada.html" class="button">Pina Colada</a></li>
                 <!-- Add more cocktails as needed -->
             </ul>
         </section>
